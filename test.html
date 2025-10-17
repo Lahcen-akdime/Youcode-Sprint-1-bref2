@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body style="display: flex;flex-direction: column;justify-content: space-around;">
+    <button style="height: 50px;width: 200px;" onclick= showlist()>OPEN THE WINDOW</button>
+    <dialog id="charlist">
+        <div style="border: 1px solid black;height: 400px;width: 800px;display: flex;flex-direction: column;align-items: center;background-color: rgb(83, 82, 82);">
+            <p style="font-size: larger;">CHARE TO YOUR FRIENDS USING THESE</p>
+            <div style="border: 1px solid rgba(158, 156, 156, 0);height: 250px;width: 700px;background-color: rgb(83, 82, 82);display:flex;justify-content: space-around;align-items: center;">
+                <img src ="assets/img/Group 27.png"style="height:100px">
+                <img src ="assets/img/Group 25.png"style="height:100px">
+                <img src ="assets/img/Group 26.png"style="height:100px">
+                <img src ="assets/img/Group 24.png"style="height:100px">
+            </div>
+            <div style="border:1px solid white;height: 50px;width: 140px;background-color: rgb(83, 82, 82);display: flex;justify-content: center;flex-direction: row;">
+                <p>12245932</p>
+                <button style="background-color:  rgb(83, 82, 82);height: 20px;">
+                <img src ="assets/img/Vector.png"style="height:10px;">
+                </button>
+            </div>
+        </div>
+    </dialog>
+    <script>
+        const dialog = document.getElementById("charlist")
+        function showlist(){
+            dialog.showMoldal()
+        }
+    </script>
+</body>
+
+</html>
